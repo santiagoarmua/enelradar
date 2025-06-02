@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EntityScan(basePackages = "entity")
 @EnableJpaRepositories(basePackages = "repository")
-@ComponentScan(basePackages = {"controller", "service"})
+@ComponentScan(basePackages = {"controller", "service","exception","security", "config"})
 
 @SpringBootApplication
 public class EventosApplication {
